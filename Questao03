@@ -1,3 +1,4 @@
+```ruby
 import json
 import os
 
@@ -31,11 +32,12 @@ dados_faturamento = carregar_dados(caminho_arquivo)
 
 if dados_faturamento:
     menor, maior, dias_acima_media, media = calcular_faturamento(dados_faturamento)
-    
+
     print(f"Menor faturamento do mês: R$ {menor:.2f}")
     print(f"Maior faturamento do mês: R$ {maior:.2f}")
     print(f"Número de dias com faturamento acima da média: {dias_acima_media}")
     print(f"Média de faturamento no mês: R$ {media:.2f}")
+```
 
 # Menor faturamento do mês: R$ 373.78
 Maior faturamento do mês: R$ 48924.24
