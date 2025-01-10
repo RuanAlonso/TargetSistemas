@@ -37,8 +37,8 @@ if dados_faturamento:
     print(f"Número de dias com faturamento acima da média: {dias_acima_media}")
     print(f"Média de faturamento no mês: R$ {media:.2f}")
 
-## Menor faturamento do mês: R$ 373.78
+# Menor faturamento do mês: R$ 373.78
 Maior faturamento do mês: R$ 48924.24
 Número de dias com faturamento acima da média: 10
-Média de faturamento no mês: R$ 20865.37 ##
+Média de faturamento no mês: R$ 20865.37 #
 
