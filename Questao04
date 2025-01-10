@@ -12,3 +12,10 @@ percentuais = {estado: (valor / total_faturamento) * 100 for estado, valor in fa
 
 for estado, percentual in percentuais.items():
     print(f"O percentual de representação de {estado} no faturamento mensal é: {percentual:.2f}%")
+
+
+#O percentual de representação de SP no faturamento mensal é: 37.53%
+O percentual de representação de RJ no faturamento mensal é: 20.29%
+O percentual de representação de MG no faturamento mensal é: 16.17%
+O percentual de representação de ES no faturamento mensal é: 15.03%
+O percentual de representação de Outros no faturamento mensal é: 10.98%#
